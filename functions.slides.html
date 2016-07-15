@@ -11869,7 +11869,7 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11906,8 +11906,8 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">say_hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">say_hello</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
 
 <span class="n">say_hello</span><span class="p">()</span>
 </pre></div>
@@ -12084,10 +12084,10 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">anon</span><span class="p">(</span><span class="n">personality</span><span class="p">,</span> <span class="n">hobby</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hi! My name is Anon. We just started dating.&#39;</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;I</span><span class="se">\&#39;</span><span class="s1">m {} and like {}.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">personality</span><span class="p">,</span> <span class="n">hobby</span><span class="p">))</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">anon</span><span class="p">(</span><span class="n">personality</span><span class="p">,</span> <span class="n">hobby</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hi! My name is Anon. We just started dating.&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;I</span><span class="se">\&#39;</span><span class="s1">m </span><span class="si">{}</span><span class="s1"> and like </span><span class="si">{}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">personality</span><span class="p">,</span> <span class="n">hobby</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12100,7 +12100,7 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">anon</span><span class="p">(</span><span class="s1">&#39;peppy&#39;</span><span class="p">,</span> <span class="s1">&#39;mixed drinks&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">anon</span><span class="p">(</span><span class="s1">&#39;peppy&#39;</span><span class="p">,</span> <span class="s1">&#39;mixed drinks&#39;</span><span class="p">)</span>
 <span class="n">anon</span><span class="p">(</span><span class="s1">&#39;nerdy&#39;</span><span class="p">,</span> <span class="s1">&#39;video games&#39;</span><span class="p">)</span>
 <span class="n">anon</span><span class="p">(</span><span class="s1">&#39;serious&#39;</span><span class="p">,</span> <span class="s1">&#39;fixing things&#39;</span><span class="p">)</span>
 </pre></div>
@@ -12158,10 +12158,10 @@ I&#39;m serious and like fixing things.
 <div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">dna</span> <span class="o">=</span> <span class="s1">&#39;CGATCGCTAGCCTGCACTCAG&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dna</span> <span class="o">=</span> <span class="s1">&#39;CGATCGCTAGCCTGCACTCAG&#39;</span>
 <span class="n">gc</span> <span class="o">=</span> <span class="n">dna</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">dna</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;G&#39;</span><span class="p">)</span>
 <span class="n">content</span> <span class="o">=</span> <span class="mi">100</span> <span class="o">*</span> <span class="n">gc</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">dna</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;GC content: {:.2f}%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">content</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;GC content: </span><span class="si">{:.2f}</span><span class="s1">%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">content</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12198,10 +12198,10 @@ I&#39;m serious and like fixing things.
 <div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">gc_content</span><span class="p">(</span><span class="n">dna</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">gc_content</span><span class="p">(</span><span class="n">dna</span><span class="p">):</span>
     <span class="n">gc</span> <span class="o">=</span> <span class="n">dna</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">dna</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;G&#39;</span><span class="p">)</span>
     <span class="n">content</span> <span class="o">=</span> <span class="mi">100</span> <span class="o">*</span> <span class="n">gc</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">dna</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;GC content: {:.2f}%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">content</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;GC content: </span><span class="si">{:.2f}</span><span class="s1">%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">content</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12214,7 +12214,7 @@ I&#39;m serious and like fixing things.
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">gc_content</span><span class="p">(</span><span class="s1">&#39;CATGCTCACTGACCCCCCCCCC&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">gc_content</span><span class="p">(</span><span class="s1">&#39;CATGCTCACTGACCCCCCCCCC&#39;</span><span class="p">)</span>
 <span class="n">gc_content</span><span class="p">(</span><span class="s1">&#39;ATTAATATTATAATTAATCCCCCCCC&#39;</span><span class="p">)</span>
 <span class="n">gc_content</span><span class="p">(</span><span class="s1">&#39;ATGCATGCATGCATGCCGTCATGCATGCATCC&#39;</span><span class="p">)</span>
 </pre></div>
@@ -12307,14 +12307,14 @@ GC content: 53.12%
 <div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">gc_content</span><span class="p">(</span><span class="n">dna</span><span class="p">,</span> <span class="n">percent</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">gc_content</span><span class="p">(</span><span class="n">dna</span><span class="p">,</span> <span class="n">percent</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
     <span class="n">gc</span> <span class="o">=</span> <span class="n">dna</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">dna</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;G&#39;</span><span class="p">)</span>
     <span class="n">content</span> <span class="o">=</span> <span class="n">gc</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">dna</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">percent</span><span class="p">:</span>
         <span class="n">content</span> <span class="o">*=</span> <span class="mi">100</span>
-        <span class="k">print</span><span class="p">(</span><span class="s1">&#39;GC content: {:.2f}%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">content</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;GC content: </span><span class="si">{:.2f}</span><span class="s1">%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">content</span><span class="p">))</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">print</span><span class="p">(</span><span class="s1">&#39;GC content: {:.5f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">content</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;GC content: </span><span class="si">{:.5f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">content</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12327,8 +12327,8 @@ GC content: 53.12%
 <div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">gc_content</span><span class="p">(</span><span class="s1">&#39;ATATCCCGATGCATGCATTAAT&#39;</span><span class="p">)</span>
-<span class="n">gc_content</span><span class="p">(</span><span class="s1">&#39;ATATCCCGATGCATGCATTAAT&#39;</span><span class="p">,</span> <span class="bp">False</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">gc_content</span><span class="p">(</span><span class="s1">&#39;ATATCCCGATGCATGCATTAAT&#39;</span><span class="p">)</span>
+<span class="n">gc_content</span><span class="p">(</span><span class="s1">&#39;ATATCCCGATGCATGCATTAAT&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12385,10 +12385,10 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">seq</span> <span class="o">=</span> <span class="s1">&#39;AWSDFGTHKLPARTGHLKAI&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">seq</span> <span class="o">=</span> <span class="s1">&#39;AWSDFGTHKLPARTGHLKAI&#39;</span>
 
 <span class="k">def</span> <span class="nf">count_alanine</span><span class="p">(</span><span class="n">protein</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">protein</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">protein</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">))</span>
     
 <span class="n">seq</span> <span class="o">=</span> <span class="s1">&#39;PLLIMNHYYTGFRDCSSA&#39;</span>
 <span class="n">count_alanine</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
@@ -12433,8 +12433,8 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">count_amino_acid</span><span class="p">(</span><span class="n">protein</span><span class="p">,</span> <span class="n">aa</span><span class="o">=</span><span class="s1">&#39;A&#39;</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">protein</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">aa</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">count_amino_acid</span><span class="p">(</span><span class="n">protein</span><span class="p">,</span> <span class="n">aa</span><span class="o">=</span><span class="s1">&#39;A&#39;</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">protein</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">aa</span><span class="p">))</span>
 
 <span class="n">protein</span> <span class="o">=</span> <span class="s1">&#39;AWSDFGTHKLPARTGHLKAI&#39;</span>
 <span class="n">count_amino_acid</span><span class="p">(</span><span class="n">protein</span><span class="p">)</span>
@@ -12510,8 +12510,8 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="s1">&#39;this could be any sequence&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">length</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="s1">&#39;this could be any sequence&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">length</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12548,14 +12548,14 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">my_len</span><span class="p">(</span><span class="n">sequence</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">my_len</span><span class="p">(</span><span class="n">sequence</span><span class="p">):</span>
     <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sequence</span><span class="p">:</span>
         <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="k">return</span> <span class="n">count</span>
 
 <span class="n">length</span> <span class="o">=</span> <span class="n">my_len</span><span class="p">(</span><span class="s1">&#39;this could be any sequence&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">length</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">length</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12601,7 +12601,7 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">fasta</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fasta</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">&gt;Abhd11os-001|Abhd11os|594|</span>
 <span class="s2">TCTGTCTTCTAGCCTCTACCAACTGACAAGTCTCAGTCA</span>
 <span class="s2">&gt;Airn-001|Airn|1113|</span>
@@ -12625,7 +12625,7 @@ GC content: 0.36364
     <span class="k">return</span> <span class="n">headers</span><span class="p">,</span> <span class="n">seqs</span>
 
 <span class="n">headers</span><span class="p">,</span> <span class="n">seqs</span> <span class="o">=</span> <span class="n">get_fasta_data</span><span class="p">(</span><span class="n">fasta</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">headers</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">headers</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12671,17 +12671,17 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">expected_population_mean</span><span class="p">(</span><span class="n">pop_values</span><span class="p">,</span> <span class="n">expected</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">expected_population_mean</span><span class="p">(</span><span class="n">pop_values</span><span class="p">,</span> <span class="n">expected</span><span class="p">):</span>
     <span class="n">total</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">pop_values</span><span class="p">)</span>
     <span class="n">mean</span> <span class="o">=</span> <span class="n">total</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">pop_values</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">mean</span> <span class="o">==</span> <span class="n">expected</span><span class="p">:</span>
-        <span class="k">return</span> <span class="bp">True</span>
+        <span class="k">return</span> <span class="kc">True</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="bp">False</span>
+        <span class="k">return</span> <span class="kc">False</span>
 
 <span class="n">pop</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
 <span class="n">result</span> <span class="o">=</span> <span class="n">expected_population_mean</span><span class="p">(</span><span class="n">pop</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12774,11 +12774,11 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="n">x_squared</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
     
 <span class="n">square</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">x_squared</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x_squared</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12831,19 +12831,19 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="n">x_squared</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
     <span class="k">return</span> <span class="n">x_squared</span>
 
 <span class="k">def</span> <span class="nf">pythagorean</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
     <span class="n">x_squared</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">x_squared</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x_squared</span><span class="p">)</span>
     <span class="n">a_squared</span> <span class="o">=</span> <span class="n">square</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">x_squared</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x_squared</span><span class="p">)</span>
     <span class="n">b_squared</span> <span class="o">=</span> <span class="n">square</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">x_squared</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x_squared</span><span class="p">)</span>
     <span class="n">c</span> <span class="o">=</span> <span class="p">(</span><span class="n">a_squared</span> <span class="o">+</span> <span class="n">b_squared</span><span class="p">)</span> <span class="o">**</span> <span class="o">.</span><span class="mi">5</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
     
 <span class="n">pythagorean</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
 </pre></div>
@@ -12894,7 +12894,7 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">COPIES_PER_CELL</span> <span class="o">=</span> <span class="mi">23</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">COPIES_PER_CELL</span> <span class="o">=</span> <span class="mi">23</span>
 
 <span class="k">def</span> <span class="nf">total_copies</span><span class="p">(</span><span class="n">cell_number</span><span class="p">):</span>
     <span class="n">copies</span> <span class="o">=</span> <span class="n">cell_number</span><span class="o">*</span><span class="n">COPIES_PER_CELL</span>
@@ -12904,8 +12904,8 @@ GC content: 0.36364
     <span class="n">gene</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">drug_amount</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">COPIES_PER_CELL</span>
     <span class="k">return</span> <span class="n">gene</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">total_copies</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="n">gene_level</span><span class="p">(</span><span class="mi">123</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">total_copies</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gene_level</span><span class="p">(</span><span class="mi">123</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12952,13 +12952,13 @@ GC content: 0.36364
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">DAYS_IN_WEEK</span> <span class="o">=</span> <span class="mi">7</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">DAYS_IN_WEEK</span> <span class="o">=</span> <span class="mi">7</span>
 
 <span class="k">def</span> <span class="nf">change_days_in_week</span><span class="p">(</span><span class="n">delta</span><span class="p">):</span>
     <span class="n">DAYS_IN_WEEK</span> <span class="o">+=</span> <span class="n">delta</span>
     <span class="k">return</span> <span class="n">DAYS_IN_WEEK</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">change_days_in_week</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">change_days_in_week</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -13012,6 +13012,84 @@ GC content: 0.36364
 <h1 id="Quiz">Quiz<a class="anchor-link" href="#Quiz">&#182;</a></h1>
 </div>
 </div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>What do the following snippets execute?</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># All *interal* function logic is correct.</span>
+
+<span class="k">def</span> <span class="nf">reverse</span><span class="p">(</span><span class="n">string</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">string</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">compliment</span><span class="p">(</span><span class="n">dna</span><span class="p">):</span>
+    <span class="n">comp_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;A&#39;</span><span class="p">:</span><span class="s1">&#39;T&#39;</span><span class="p">,</span> <span class="s1">&#39;T&#39;</span><span class="p">:</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">:</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">:</span><span class="s1">&#39;G&#39;</span><span class="p">}</span>
+    <span class="n">comp</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">comp_dict</span><span class="p">[</span><span class="n">base</span><span class="p">]</span> <span class="k">for</span> <span class="n">base</span> <span class="ow">in</span> <span class="n">dna</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">comp</span>
+
+<span class="k">def</span> <span class="nf">reverse_compliment</span><span class="p">(</span><span class="n">dna</span><span class="p">):</span>
+    <span class="n">dna</span> <span class="o">=</span> <span class="n">reverse</span><span class="p">(</span><span class="n">dna</span><span class="p">)</span>
+    <span class="n">dna</span> <span class="o">=</span> <span class="n">compliment</span><span class="p">(</span><span class="n">dna</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">dna</span>
+
+<span class="n">seq</span> <span class="o">=</span> <span class="s1">&#39;AGCTA&#39;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">reverse_compliment</span><span class="p">(</span><span class="n">seq</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>TAGCT
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>ATCGA</li>
+<li>TCGAT</li>
+<li>TAGCT</li>
+<li>Error</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>TODO: Add more questions.</p>
+
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -13021,29 +13099,396 @@ GC content: 0.36364
 <h1 id="A-larger-example">A larger example<a class="anchor-link" href="#A-larger-example">&#182;</a></h1>
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We've all written scripts like this at some point:</p>
+<p>We've all written scripts where we start at the beginning and go line by line until we're done.</p>
+<p><strong>WARNING:</strong> The following code focuses on simplicity and shouldn't be used in practice.</p>
 
 </div>
 </div>
-</div><div class="fragment">
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">,</span> <span class="n">m_fasta</span><span class="p">,</span> <span class="n">h_out</span><span class="p">,</span> <span class="n">m_out</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">)</span> <span class="k">as</span> <span class="n">h_fasta</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">)</span> <span class="k">as</span> <span class="n">m_fasta</span><span class="p">:</span>
+        <span class="n">h_fasta</span> <span class="o">=</span> <span class="n">h_fasta</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span> 
+        <span class="n">m_fasta</span> <span class="o">=</span> <span class="n">m_fasta</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    
+    <span class="n">h_names</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">h_fasta</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&gt;&quot;</span><span class="p">:</span>
+            <span class="n">line_ls</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;|&quot;</span><span class="p">)</span>
+            <span class="n">name</span> <span class="o">=</span> <span class="n">line_ls</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+            <span class="n">h_names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            
+    <span class="n">m_names</span> <span class="o">=</span> <span class="p">[]</span> 
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">m_fasta</span><span class="p">:</span> 
+        <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&gt;&quot;</span><span class="p">:</span> 
+            <span class="n">line_ls</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;|&quot;</span><span class="p">)</span> 
+            <span class="n">name</span> <span class="o">=</span> <span class="n">line_ls</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> 
+            <span class="n">m_names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span> 
+
+    <span class="n">m_names_upper</span> <span class="o">=</span> <span class="p">[]</span> 
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_names</span><span class="p">:</span> 
+        <span class="n">m_names_upper</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+        
+    <span class="n">h_overlap</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">m_overlap</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_names_upper</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">h_names</span><span class="p">:</span>
+            <span class="n">m_pos</span> <span class="o">=</span> <span class="n">m_names_upper</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            <span class="n">m_orig_name</span> <span class="o">=</span> <span class="n">m_names</span><span class="p">[</span><span class="n">m_pos</span><span class="p">]</span>
+            <span class="n">m_overlap</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">m_orig_name</span><span class="p">)</span>
+            <span class="n">h_overlap</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">h_out</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">h_out</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">m_out</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">m_out</span><span class="p">:</span>
+        
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">h_overlap</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">h_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+                    <span class="n">h_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">break</span>
+                
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_overlap</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">m_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+                    <span class="n">m_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">break</span>
+<span class="n">main</span><span class="p">(</span><span class="s1">&#39;h_fasta.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;m_fasta.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;h_out.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;m_out.txt&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="That-function-works.">That function works.<a class="anchor-link" href="#That-function-works.">&#182;</a></h2>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>What does it do? </li>
+<li>Why is there so much repetitiveness?</li>
+</ul>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Add a bit of documentation in the form of well-named functions and <strong>docstrings</strong>.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fasta_name_overlap</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">,</span> <span class="n">m_fasta</span><span class="p">,</span> <span class="n">h_out</span><span class="p">,</span> <span class="n">m_out</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Writes sequences with corresponding common names to new fasta files.&quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">)</span> <span class="k">as</span> <span class="n">h_fasta</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">)</span> <span class="k">as</span> <span class="n">m_fasta</span><span class="p">:</span>
+        <span class="n">h_fasta</span> <span class="o">=</span> <span class="n">h_fasta</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span> 
+        <span class="n">m_fasta</span> <span class="o">=</span> <span class="n">m_fasta</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    
+    <span class="n">h_names</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">h_fasta</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&gt;&quot;</span><span class="p">:</span>
+            <span class="n">line_ls</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;|&quot;</span><span class="p">)</span>
+            <span class="n">name</span> <span class="o">=</span> <span class="n">line_ls</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+            <span class="n">h_names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            
+    <span class="n">m_names</span> <span class="o">=</span> <span class="p">[]</span> 
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">m_fasta</span><span class="p">:</span> 
+        <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&gt;&quot;</span><span class="p">:</span> 
+            <span class="n">line_ls</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;|&quot;</span><span class="p">)</span> 
+            <span class="n">name</span> <span class="o">=</span> <span class="n">line_ls</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> 
+            <span class="n">m_names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span> 
+
+    <span class="n">m_names_upper</span> <span class="o">=</span> <span class="p">[]</span> 
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_names</span><span class="p">:</span> 
+        <span class="n">m_names_upper</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+        
+    <span class="n">h_overlap</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">m_overlap</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_names_upper</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">h_names</span><span class="p">:</span>
+            <span class="n">m_pos</span> <span class="o">=</span> <span class="n">m_names_upper</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            <span class="n">m_orig_name</span> <span class="o">=</span> <span class="n">m_names</span><span class="p">[</span><span class="n">m_pos</span><span class="p">]</span>
+            <span class="n">m_overlap</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">m_orig_name</span><span class="p">)</span>
+            <span class="n">h_overlap</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">h_out</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">h_out</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">m_out</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">m_out</span><span class="p">:</span>
+        
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">h_overlap</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">h_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+                    <span class="n">h_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">break</span>
+                
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_overlap</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">m_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+                    <span class="n">m_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">break</span>
+<span class="n">fasta_name_overlap</span><span class="p">(</span><span class="s1">&#39;h_fasta.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;m_fasta.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;h_out.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;m_out.txt&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>At least now we can have some idea what's going on.</p>
+<p>Now we need to get rid of the repeating blocks of code.</p>
+<p>We can do that by creating a couple more nicely documented functions.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">file_to_list</span><span class="p">(</span><span class="n">file_name</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Returns a list of lines from a file.&quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">)</span> <span class="k">as</span> <span class="n">infile</span><span class="p">:</span>
+        <span class="n">contents</span> <span class="o">=</span> <span class="n">infile</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">contents</span>
+
+<span class="k">def</span> <span class="nf">find_names</span><span class="p">(</span><span class="n">fasta</span><span class="p">,</span> <span class="n">upper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Finds the common name of gene from a gencode formatted fasta.&quot;&quot;&quot;</span>
+    <span class="n">names</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">fasta</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&gt;&#39;</span><span class="p">:</span>
+            <span class="n">lines_ls</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;|&#39;</span><span class="p">)</span>
+            <span class="n">name</span> <span class="o">=</span> <span class="n">line_ls</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+            <span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">upper</span><span class="p">:</span>
+        <span class="n">upper_names</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">names</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">names</span><span class="p">,</span> <span class="n">upper_names</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">names</span>
+    
+<span class="k">def</span> <span class="nf">fasta_name_overlap</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">,</span> <span class="n">m_fasta</span><span class="p">,</span> <span class="n">h_out</span><span class="p">,</span> <span class="n">m_out</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Writes sequences with corresponding common names to new fasta files.&quot;&quot;&quot;</span>
+    <span class="n">h_fasta</span> <span class="o">=</span> <span class="n">file_to_list</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">)</span>
+    <span class="n">m_fasta</span> <span class="o">=</span> <span class="n">file_to_list</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">)</span>
+    
+    <span class="n">h_names</span> <span class="o">=</span> <span class="n">find_names</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">)</span>
+    <span class="n">m_names</span><span class="p">,</span> <span class="n">m_upper</span> <span class="o">=</span> <span class="n">find_names</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+        
+    <span class="n">h_overlap</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">m_overlap</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_names_upper</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">h_names</span><span class="p">:</span>
+            <span class="n">m_pos</span> <span class="o">=</span> <span class="n">m_names_upper</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            <span class="n">m_orig_name</span> <span class="o">=</span> <span class="n">m_names</span><span class="p">[</span><span class="n">m_pos</span><span class="p">]</span>
+            <span class="n">m_overlap</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">m_orig_name</span><span class="p">)</span>
+            <span class="n">h_overlap</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">h_out</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">h_out</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">m_out</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">m_out</span><span class="p">:</span>
+        
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">h_overlap</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">h_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+                    <span class="n">h_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">break</span>
+                
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_overlap</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">m_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+                    <span class="n">m_out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">break</span>
+<span class="n">fasta_name_overlap</span><span class="p">(</span><span class="s1">&#39;h_fasta.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;m_fasta.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;h_out.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;m_out.txt&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Our-line-count-is-the-same...">Our line count is the same...<a class="anchor-link" href="#Our-line-count-is-the-same...">&#182;</a></h1>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>But that's not the point.</p>
+<p>The purpose here is to increase understanding of what this code is doing.</p>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's keep going.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">file_to_list</span><span class="p">(</span><span class="n">file_name</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Returns a list of lines from a file.&quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">)</span> <span class="k">as</span> <span class="n">infile</span><span class="p">:</span>
+        <span class="n">contents</span> <span class="o">=</span> <span class="n">infile</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">contents</span>
+
+<span class="k">def</span> <span class="nf">find_names</span><span class="p">(</span><span class="n">fasta</span><span class="p">,</span> <span class="n">upper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Finds the common name of gene from a gencode formatted fasta.&quot;&quot;&quot;</span>
+    <span class="n">names</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">fasta</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&gt;&#39;</span><span class="p">:</span>
+            <span class="n">lines_ls</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;|&#39;</span><span class="p">)</span>
+            <span class="n">name</span> <span class="o">=</span> <span class="n">line_ls</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+            <span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">upper</span><span class="p">:</span>
+        <span class="n">upper_names</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">names</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">names</span><span class="p">,</span> <span class="n">upper_names</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">names</span>
+
+<span class="k">def</span> <span class="nf">get_overlap</span><span class="p">(</span><span class="n">h_names</span><span class="p">,</span> <span class="n">m_names</span><span class="p">,</span> <span class="n">m_upper</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Returns original names found in both fasta files.&quot;&quot;&quot;</span>
+    <span class="n">h_overlap</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">m_overlap</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">m_upper</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">h_names</span><span class="p">:</span>
+            <span class="n">m_pos</span> <span class="o">=</span> <span class="n">m_upper</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            <span class="n">m_orig_name</span> <span class="o">=</span> <span class="n">m_names</span><span class="p">[</span><span class="n">m_pos</span><span class="p">]</span>
+            <span class="n">m_overlap</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">m_orig_name</span><span class="p">)</span>
+            <span class="n">h_overlap</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span> 
+    <span class="k">return</span> <span class="n">h_overlap</span><span class="p">,</span> <span class="n">m_overlap</span>
+
+<span class="k">def</span> <span class="nf">filter_fasta</span><span class="p">(</span><span class="n">out</span><span class="p">,</span> <span class="n">overlap</span><span class="p">,</span> <span class="n">fasta</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Filters original fasta files based on overlapping names.&quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">out</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">overlap</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">fasta</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+                    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">fasta</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+                    <span class="k">break</span>
+                    
+<span class="k">def</span> <span class="nf">fasta_name_overlap</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">,</span> <span class="n">m_fasta</span><span class="p">,</span> <span class="n">h_out</span><span class="p">,</span> <span class="n">m_out</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Writes sequences with corresponding common names to new fasta files.&quot;&quot;&quot;</span>
+    <span class="n">h_fasta</span> <span class="o">=</span> <span class="n">file_to_list</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">)</span>
+    <span class="n">m_fasta</span> <span class="o">=</span> <span class="n">file_to_list</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">)</span>
+    
+    <span class="n">h_names</span> <span class="o">=</span> <span class="n">find_names</span><span class="p">(</span><span class="n">h_fasta</span><span class="p">)</span>
+    <span class="n">m_names</span><span class="p">,</span> <span class="n">m_upper</span> <span class="o">=</span> <span class="n">find_names</span><span class="p">(</span><span class="n">m_fasta</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+    
+    <span class="n">h_overlap</span><span class="p">,</span> <span class="n">m_overlap</span> <span class="o">=</span> <span class="n">get_overlap</span><span class="p">(</span><span class="n">h_names</span><span class="p">,</span> <span class="n">m_names</span><span class="p">,</span> <span class="n">m_upper</span><span class="p">)</span>
+    
+    <span class="n">filter_fasta</span><span class="p">(</span><span class="n">h_out</span><span class="p">,</span> <span class="n">h_overlap</span><span class="p">,</span> <span class="n">h_fasta</span><span class="p">)</span>
+    <span class="n">filter_fasta</span><span class="p">(</span><span class="n">h_out</span><span class="p">,</span> <span class="n">h_overlap</span><span class="p">,</span> <span class="n">h_fasta</span><span class="p">)</span>
+
+<span class="n">fasta_name_overlap</span><span class="p">(</span><span class="s1">&#39;h_fasta.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;m_fasta.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;h_out.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;m_out.txt&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="What-does-this-code-do?">What does this code do?<a class="anchor-link" href="#What-does-this-code-do?">&#182;</a></h1>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Read the main function.</p>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Convert files to lists</li>
+<li>Find fasta names</li>
+<li>Get overlapping names</li>
+<li>Filter fasta files</li>
+</ul>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The main function now serves two purposes.</p>
+<ol>
+<li>Execute all the smaller functions</li>
+<li>Explains what the code does to users (including your future self).</li>
+</ol>
+
+</div>
+</div>
 </div></div></section></section>
 </div>
 </div>
